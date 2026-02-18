@@ -35,9 +35,6 @@ jobs:
         run: python --version
       - name: docker version
         run: docker -v
-        steps:
-      - uses: actions/checkout@v4
-
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
 
